@@ -1,7 +1,7 @@
 {
-  "name": "NADI BPD DESA LAMU",
+  "name": "NADI BPD LAMU",
   "short_name": "NADI BPD",
-  "description": "Sistem Informasi Kinerja, Presensi GPS, Aspirasi & Administrasi BPD Desa Lamu, Kec. Tilamuta, Kab. Boalemo",
+  "description": "Navigasi Administrasi dan Dokumentasi Badan Permusyawaratan Desa (BPD) Desa Lamu, Kec. Tilamuta, Kab. Boalemo",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
