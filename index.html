@@ -10,7 +10,8 @@
   <title>NADI BPD LAMU • Sistem Informasi & Kinerja BPD Desa Lamu</title>
 
   <link rel="manifest" href="./manifest.json" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cpath d='M60 6 L108 24 L108 62 C108 89 86 107 60 115 C34 107 12 89 12 62 L12 24 Z' fill='%23065f46' stroke='%23f59e0b' stroke-width='6'/%3E%3Ctext x='60' y='72' font-family='Arial' font-size='26' font-weight='bold' fill='%23fde68a' text-anchor='middle'%3EBPD%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" type="image/png" href="./logo.png" />
+  <link rel="apple-touch-icon" href="./logo.png" />
 
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -34,6 +35,13 @@
       text-align: center;
       padding: 24px;
       transition: opacity 0.4s ease;
+    }
+    #splash-logo {
+      width: 96px;
+      height: 96px;
+      object-fit: contain;
+      border-radius: 20px;
+      filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.35));
     }
     .spinner {
       width: 44px;
@@ -85,12 +93,7 @@
 </head>
 <body>
   <div id="splash-screen">
-    <svg width="84" height="84" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
-      <path d="M60 6 L108 24 L108 62 C108 89 86 107 60 115 C34 107 12 89 12 62 L12 24 Z" fill="#065f46" stroke="#fbbf24" stroke-width="5"/>
-      <path d="M60 30 L65 42 L78 42 L67 50 L71 62 L60 54 L49 62 L53 50 L42 42 L55 42 Z" fill="#fbbf24"/>
-      <rect x="24" y="74" width="72" height="20" rx="6" fill="#fbbf24"/>
-      <text x="60" y="88" font-family="Arial,sans-serif" font-size="13" font-weight="900" fill="#022c22" text-anchor="middle">BPD LAMU</text>
-    </svg>
+    <img id="splash-logo" src="./logo.png" alt="Logo NADI BPD LAMU" />
     <h2 style="margin-top:14px;font-size:18px;letter-spacing:0.5px;">NADI BPD DESA LAMU</h2>
     <p style="font-size:12px;color:#a7f3d0;margin-top:4px;">Kec. Tilamuta • Kab. Boalemo • Prov. Gorontalo</p>
     <div class="spinner"></div>
