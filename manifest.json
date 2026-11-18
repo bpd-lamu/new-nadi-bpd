@@ -10,15 +10,15 @@
   "theme_color": "#022c22",
   "icons": [
     {
-      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='40' fill='%23022c22'/%3E%3Cpath d='M96 18 L164 44 L164 100 C164 140 132 168 96 180 C60 168 28 140 28 100 L28 44 Z' fill='%23065f46' stroke='%23fbbf24' stroke-width='8'/%3E%3Ctext x='96' y='112' font-family='Arial' font-size='38' font-weight='900' fill='%23fde68a' text-anchor='middle'%3EBPD%3C/text%3E%3C/svg%3E",
+      "src": "./logo.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='100' fill='%23022c22'/%3E%3Cpath d='M256 48 L436 118 L436 268 C436 374 352 448 256 480 C160 448 76 374 76 268 L76 118 Z' fill='%23065f46' stroke='%23fbbf24' stroke-width='20'/%3E%3Ctext x='256' y='296' font-family='Arial' font-size='98' font-weight='900' fill='%23fde68a' text-anchor='middle'%3EBPD%3C/text%3E%3C/svg%3E",
+      "src": "./logo.png",
       "sizes": "512x512",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
